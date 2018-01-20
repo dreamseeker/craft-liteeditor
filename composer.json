@@ -1,0 +1,14 @@
+{
+	"name": "dreamseeker/liteeditor",
+	"description": "Lite Editor FieldType for Craft CMS",
+	"type": "craft-plugin",
+	"authors": [
+		{
+			"name": "dreamseeker",
+			"homepage": "https://github.com/dreamseeker"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}

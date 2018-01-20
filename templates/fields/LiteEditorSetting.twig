@@ -1,0 +1,24 @@
+{#
+/**
+ * LiteEditor plugin for Craft CMS
+ *
+ * LiteEditorFieldType HTML
+ *
+ * @author    dreamseeker
+ * @copyright Copyright (c) 2018 dreamseeker
+ * @link      https://github.com/dreamseeker
+ * @package   LiteEditor
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{{ forms.selectField({
+  label: 'Lite Editor Config' | t,
+  instructions: 'You can save custom Lite Editor configs as `.json` files in `craft/config/liteeditor/`.' | t,
+  id: 'configFle',
+  name: 'configFile',
+  options: liteEditorConfigOptions,
+  value: settings.configFile
+}) }}
